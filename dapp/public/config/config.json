@@ -1,0 +1,19 @@
+{
+  "CONTRACT_ADDRESS": "0x784a70527Ba6bbdd8ee52d33473C98F185c4EaD9",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/token/0x784a70527Ba6bbdd8ee52d33473C98F185c4EaD9",
+  "NETWORK": {
+    "NAME": "Rinkeby",
+    "SYMBOL": "ETH",
+    "ID": 4
+  },
+  "NFT_NAME": "Future NFT Mints Tip Gen 0",
+  "SYMBOL": "TIP",
+  "MAX_SUPPLY": 20,
+  "WEI_COST": 0,
+  "DISPLAY_COST": 0.0,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opensea Test Net",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/fnftm-tip0gen0",
+  "SHOW_BACKGROUND": false,
+  "OTHER_NFT_LINK": "https://futurenftmints.com/genesis-nft.html"
+}
