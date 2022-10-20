@@ -40,7 +40,13 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script>
-      window.location.replace("https://app.futurenftmints.com");
+      var url = window.location.toString();
+      var splitParams = url.split('?');
+      var addParams = '';
+      if ( splitParams.length > 1 ) {
+        addParams = '?' + splitParams[1];
+      }
+      window.location.replace("https://app.futurenftmints.com" + window.location.pathname + addParams);
     </script>
   </body>
 </html>
